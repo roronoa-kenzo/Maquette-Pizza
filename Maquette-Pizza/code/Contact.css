@@ -1,0 +1,315 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+
+
+.parallax {
+    background-image: url("img/img_home.png");
+    min-height: 670px;
+    background-attachment: fixed;
+    background-position: initial;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Montserrat';
+    color: #ffffff;    
+}
+
+h2{
+    font-family: 'Montserrat';
+    color: #000000;
+    text-align: center; 
+    margin: 2%;   
+}
+
+a{
+    color: black;
+    font-family: 'Montserrat';
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 50%;
+    text-decoration: none;
+}
+
+header{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    position: fixed;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    text-align: center;      
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 140px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.bella_logo{
+    vertical-align: middle;
+    border-style: none;
+    max-width: 185px;
+    max-height: 180px;
+    padding-right: 15px;
+}
+
+.contact{
+    color: darkorange;
+}
+
+p{
+    font-family: 'Montserrat';
+    margin-left: 85px;
+    font-size: 14px;
+}
+
+h2{
+    font-family: 'Montserrat';
+    margin-left: 85px;
+    font-size: 40px;
+}
+
+h3{
+    font-family: 'Montserrat';
+    margin-left: 85px;
+    font-size: 48px;
+    margin: 78px;
+}
+
+.title-cmd{
+    color: #2f2f2f;
+}
+
+h4{
+    font-family: 'Montserrat';
+    margin-left: 85px;
+    font-size: 25px;
+}
+
+.feedback-input {
+    color:rgb(196, 196, 196);
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight:500;
+    line-height: 15px;
+    background-color: transparent;
+    border:2px solid #b1b1b1;
+    transition: all 0.3s;
+    padding: 10px;
+    margin-bottom: 40px;
+    box-sizing: border-box;
+    outline:0;
+    margin-left: 85px;
+    display: flex;
+    border-radius: 2%;
+    width: 335px;
+  }
+  
+  .feedback-input:focus { border:2px solid #ff0000; }
+  
+  textarea {
+    height: 150px;
+    line-height: 150%;
+    resize:vertical;
+  }
+
+.formulaire{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-right: 35%;
+}
+
+.formulaire2{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-right: 68%;
+}
+
+input{
+    width: 150%;
+    color: white;
+    background-color: #ff5702;
+    border-radius: 5px;
+    padding: 13px;
+    border: none;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: #000000;
+}
+
+.bouton1{
+    margin-left: 8%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.re_captcha{
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+/*Google Map*/
+
+.mapouter{
+    margin-left: 8%;
+    position:relative;
+    text-align:right;
+    height:500px;
+    width:600px;
+    margin: 5%;
+    margin-left: 8%;
+}
+
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:500px;
+    width:600px;
+}
+
+/*Fin Google Map*/
+
+.g-recaptcha{
+    margin-left: 6%;
+    margin-top: 2%;
+}
+
+/* Fin ReCaptcha */
+
+label {
+    font-family: sans-serif;
+    font-size: 1rem;
+    padding-right: 10px;
+}
+
+select {
+    
+    color:rgb(71, 71, 71);
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight:500;
+    line-height: 15px;
+    background-color: transparent;
+    border:2px solid #b1b1b1;
+    transition: all 0.3s;
+    padding: 10px;
+    margin-bottom: 40px;
+    box-sizing: border-box;
+    outline:0;
+    margin-left: 120px;
+    display: flex;
+    border-radius: 2%;
+    width: 335px;
+}
+
+.ingrediant{
+    margin-left: 35px;
+}
+
+hr{
+    width: 55%;
+}
+
+.quantite{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+
+/*Debut Footer*/
+
+.img_footer{
+    background-image: url("img/img_footer.png");
+    min-height: 670px;
+    background-position: initial;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.fa-arrow-up:before {
+    content: "\f062";
+
+}
+.bouge{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        
+}
+
+.footer {
+    background-color:#ffffff;
+    margin: 0;
+    
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 40px;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 30px;
+    margin-right: 125px;
+}
+
+.ico {
+    text-align: center;
+}
+
+.footer li {
+    padding: 20px;
+    color: white;
+}
+
+.bouger{
+    width: 30px;
+}
+
+.bouger-2{
+    width: 30px;
+}
+
+.bouger-3{
+    width: 40px;
+}
+
+.bouger-4{
+    width: 47px;
+}
+
+/* End Footer

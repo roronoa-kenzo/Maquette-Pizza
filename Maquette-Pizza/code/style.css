@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+
+}
+
+h1{
+    font-family: 'Montserrat';
+    color: #ffffff;    
+}
+
+h2{
+    font-family: 'Montserrat';
+    color: #000000;
+    text-align: center; 
+    margin: 2%;   
+}
+
+h3{
+    font-family: 'Montserrat';
+    color: #000000;
+    text-align: left; 
+    
+}
+
+p{
+    font-family: 'Montserrat';
+    text-align: left; 
+    margin-left: 40px;
+    font-size: large;
+    margin: 1px;
+}
+
+.card1{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Montserrat';
+    justify-content: space-between;
+}
+
+button{
+    width: 20%;
+    color: white;
+    background-color: #ff5702;
+    border-radius: 5px;
+    padding: 13px;
+    border: none;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: #000000;
+    margin-left: 75%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.btn-pizza{
+    margin-left: 8%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.bordure-pizza{
+    border: solid;
+    padding-top: 33px;
+    padding-right: 24px;
+    padding-left: 24px;
+    margin: 2%;
+    color: #FA4A0C;
+}
+
+.TPizza{
+    color: #000000;
+    margin: 2%;
+    font-size: 25px;
+}
+
+.PPizza{
+    color: #000000;
+    margin: 2%;
+    margin-top: 25px;
+    font-size: 25px;
+}
+
+a{
+    color: black;
+    font-family: 'Montserrat';
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 50%;
+    text-decoration: none;
+}
+
+
+/* Debut Header */
+
+header{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    position: fixed;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    text-align: center;      
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 140px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.bella_logo{
+    vertical-align: middle;
+    border-style: none;
+    max-width: 185px;
+    max-height: 180px;
+    padding-right: 15px;
+}
+
+.home{
+    color: darkorange;
+}
+
+/* Fin Header */
+body{
+    margin: 0%;
+}
+
+button {
+    text-align: end;
+    
+}
+
+.parallax {
+    background-image: url("img/img_home.png");
+    min-height: 670px;
+    background-attachment: fixed;
+    background-position: initial;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Footer Debut */
+
+.img_footer{
+    background-image: url("img/img_footer.png");
+    min-height: 670px;
+    background-position: initial;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.fa-arrow-up:before {
+    content: "\f062";
+
+}
+.bouge{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        
+}
+
+.footer {
+    background-color:#ffffff;
+    margin: 0;
+    
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 40px;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 30px;
+    margin-right: 125px;
+}
+
+.ico {
+    text-align: center;
+}
+
+.footer li {
+    padding: 20px;
+    color: white;
+}
+
+.bouger{
+    width: 30px;
+}
+
+.bouger-2{
+    width: 30px;
+}
+
+.bouger-3{
+    width: 40px;
+}
+
+.bouger-4{
+    width: 47px;
+}
+
+.copyright {
+    color: rgb(80, 80, 80);
+}
+
+/* End Footer
