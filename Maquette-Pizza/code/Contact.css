@@ -231,12 +231,34 @@ hr{
     width: 55%;
 }
 
-.quantite{
+.commande{
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: flex-end;
 }
+
+input[type="checkbox"].demo2 {
+    display: none;
+  }
+  input[type="checkbox"].demo2 + label::before {
+    content:'';
+    border: 1px solid #838383;
+    padding: 0 0.6rem;
+    margin-right: 0.3rem;
+  }
+  input[type="checkbox"].demo2:checked + label::before {
+    background-color: #11ae00;
+  }
+
+
+
+.john-cena{
+    margin-right: 45%;
+}
+
+.boissons-dessert{
+    display: flex;
+}
+
+
 
 /*Debut Footer*/
 
